@@ -1,0 +1,26 @@
+.breadcrum {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    color: #6c757d;
+}
+
+.breadcrum span {
+    margin: 0;
+    padding: 0 10px;
+    color: #6c757d;
+}
+
+.breadcrum span::before {
+    content: ">";
+    margin-right: 10px;
+    color: #6c757d;
+}
+
+.breadcrum span:first-of-type::before {
+    content: "";
+}
