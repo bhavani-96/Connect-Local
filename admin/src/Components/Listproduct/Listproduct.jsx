@@ -7,7 +7,7 @@ const Listproduct = () => {
 
   const fetchInfo = async () => {
     try {
-      const response = await fetch('http://localhost:4000/allproducts');
+      const response = await fetch('https://connect-local-backend.onrender.com');
       const data = await response.json();
       setAllProducts(data);
     } catch (error) {
