@@ -16,3 +16,25 @@ admin page- https://connect-local-adminnew.onrender.com/
 - **Communication Integration**: Integrated with Twilio for sending SMS notifications.
 - **Admin Panel**: A dedicated admin panel for managing users, services, and bookings.
 - **Popular Service Providers Display**: Showcases popular providers in various categories.
+
+## Tech Stack
+
+- **Frontend**: React.js
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB
+- **Authentication**: JWT (JSON Web Token)
+- **Communication**: Twilio API for SMS services
+- **File Uploads**: Multer for handling image uploads
+
+
+
+
+
+## Installation
+
+### Prerequisites
+
+- Node.js
+- MongoDB
+- NPM or Yarn
+
